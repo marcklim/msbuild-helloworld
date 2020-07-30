@@ -1,8 +1,6 @@
-name: Build App using .NET Core (Release)
+name: Build App using .NET Core (Release) and publish artifact
 
 on:
-  push:
-    branches: [ master ]
   pull_request:
     branches: [ master ]
 
